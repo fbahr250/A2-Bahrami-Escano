@@ -1,4 +1,4 @@
-COMP 2511 Assignment 2 
+COMP 2511 Assignment 2 - README
 
 Group Members:
 - Faiz Bahrami
@@ -28,28 +28,28 @@ Shared Tasks:
 Accessibility Issues Identified
 
 Perceivable:
-- Some images required meaningful alternative text.
-- Visual clarity needed to be maintained across different screen sizes.
-- Text and layout needed to remain readable on smaller devices.
+- During manual review, the main issue identified was that the image alternative text could be made more accurate so that it better matched the actual classroom image.
+- WAVE did not detect any perceivable errors or contrast errors on the tested pages.
 
 Operable:
-- Navigation needed to remain clear and easy to use on all screen sizes.
-- Link spacing and layout needed to support easier interaction.
+- Navigation was reviewed to ensure that links were clear, consistent, and easy to use across all pages and screen sizes.
+- WAVE did not detect any operability-related errors on the tested pages.
 
 Understandable:
-- Page headings and navigation labels needed to be clear and predictable.
-- Content sections needed to follow a consistent structure across pages.
+- Headings, page labels, and content sections were kept consistent so that each page was predictable and easy to follow.
+- WAVE did not detect any alerts related to confusing structure or page clarity.
 
 Robust:
-- Semantic HTML structure was needed to improve compatibility.
-- Layout and code needed to function properly across different device widths.
+- Semantic HTML elements such as header, nav, main, section, article, and footer were used to support compatibility and structure.
+- WAVE did not detect any structural errors on the tested pages.
 
 General Types of Changes Made:
-The main issues involved creating a layout that remained clear and usable on different screen sizes while also improving accessibility. To address these issues, semantic HTML elements were used, alt text was added to images, navigation was kept consistent across pages, and media queries were used to create small, medium, and large layouts. The design was also reviewed to improve readability, spacing, and overall usability.
+The main improvements focused on making the website responsive, consistent, and accessible across different devices. Semantic HTML was used to improve structure, navigation was kept consistent on every page, media queries were added for small, medium, and large layouts, and image alternative text was reviewed and improved. Manual review helped identify ways to make the page content clearer, while WAVE confirmed that no automated accessibility errors, contrast errors, or alerts were present on the tested pages.
 
 Testing:
 - Tested all navigation links
 - Tested image display
 - Tested responsive layout at small, medium, and large widths
 - Tested the layout around 590 px and 790 px breakpoints
-- Reviewed page structure and readability
+- Ran WAVE on Home, About, Projects, and Contact
+- WAVE results showed 0 errors, 0 contrast errors, and 0 alerts on all tested pages
