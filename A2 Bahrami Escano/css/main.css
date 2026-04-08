@@ -48,6 +48,11 @@ nav a:focus {
   background-color: #17496a;
 }
 
+nav a.active {
+  background-color: #0f3550;
+  border: 2px solid white;
+}
+
 .hero {
   background-color: #eaf2f8;
 }
